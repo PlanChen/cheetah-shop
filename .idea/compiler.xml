@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <resourceExtensions />
+    <wildcardResourcePatterns>
+      <entry name="!?*.java" />
+      <entry name="!?*.form" />
+      <entry name="!?*.class" />
+      <entry name="!?*.groovy" />
+      <entry name="!?*.scala" />
+      <entry name="!?*.flex" />
+      <entry name="!?*.kt" />
+      <entry name="!?*.clj" />
+      <entry name="!?*.aj" />
+    </wildcardResourcePatterns>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="false">
+        <processorPath useClasspath="true" />
+      </profile>
+      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
+        <module name="shop-admin" />
+        <module name="shop-common" />
+        <module name="shop-goods" />
+        <module name="shop-goods-api" />
+        <module name="shop-h5" />
+        <module name="shop-member" />
+        <module name="shop-member-api" />
+        <module name="shop-order" />
+        <module name="shop-order-api" />
+        <module name="shop-pay" />
+        <module name="shop-pay-api" />
+        <module name="shop-promotion" />
+        <module name="shop-promotion-api" />
+        <module name="shop-stock" />
+        <module name="shop-stock-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cheetah-shop" target="1.5" />
+      <module name="shop-admin" target="1.5" />
+      <module name="shop-common" target="1.5" />
+      <module name="shop-goods" target="1.5" />
+      <module name="shop-goods-api" target="1.5" />
+      <module name="shop-h5" target="1.5" />
+      <module name="shop-member" target="1.5" />
+      <module name="shop-member-api" target="1.5" />
+      <module name="shop-order" target="1.5" />
+      <module name="shop-order-api" target="1.5" />
+      <module name="shop-pay" target="1.5" />
+      <module name="shop-pay-api" target="1.5" />
+      <module name="shop-promotion" target="1.5" />
+      <module name="shop-promotion-api" target="1.5" />
+      <module name="shop-stock" target="1.5" />
+      <module name="shop-stock-api" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
